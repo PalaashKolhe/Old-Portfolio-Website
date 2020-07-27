@@ -2,6 +2,30 @@ html {
     font-family: 'Poppins', sans-serif;
 }
 
+footer img {
+    width: 7.5%;
+    margin-left: 5.5%;
+    padding-right: 9.3%;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 3%;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(75, 75, 75);
+    position: relative;
+    font-weight: bold;
+    bottom: 43px;
+    padding-right: 10px;
+    size: 4%
+}
+
 h1 {
     font-size: 510%;
     color:rgb(75, 75, 75);
@@ -16,18 +40,17 @@ body {
     background-repeat: no-repeat;
     background-position-x: right;
     background-size: 24.5%;
-
 }
 
 .sidenav {
-    width: 25%;
+    width: 22%;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
     background-color: 'white';
     overflow-x: hidden;
-    padding-top: 20px;
+    padding-top: 35px;
     font-family: 'Poppins', sans-serif;
     margin-top:190px;
 }
@@ -45,7 +68,7 @@ body {
 }
 
 .main {
-    margin-left: 25%;
+    margin-left: 22%;
     padding: 0px 10px;
     margin-top: 200px;
 }
