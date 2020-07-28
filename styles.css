@@ -41,6 +41,7 @@ h2 {
     background-repeat: no-repeat;
     background-position-x: right;
     background-size: 24.5%;
+    background-position: fixed;
 }
 
 #aboutPage {
