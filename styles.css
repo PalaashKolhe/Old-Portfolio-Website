@@ -14,6 +14,7 @@ footer {
     bottom: 0;
     width: 100%;
     margin-bottom: 3%;
+    overflow: auto;
 }
 
 footer a {
@@ -35,11 +36,19 @@ h2 {
     color:rgb(75, 75, 75);
 }
 
-body {
+#indexPage {
     background-image: url('indexBackground.png');
     background-repeat: no-repeat;
     background-position-x: right;
     background-size: 24.5%;
+}
+
+#aboutPage {
+    background-image: url('aboutBackground.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 25%;
 }
 
 .sidenav {
@@ -70,7 +79,11 @@ body {
 .main {
     margin-left: 22%;
     padding: 0px 10px;
-    margin-top: 200px;
+    margin-top: 13.2%;
+}
+
+.aboutMeParagraph {
+    overflow-wrap: normal
 }
 
 @media screen and (max-height: 450px) {
